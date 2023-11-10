@@ -1,0 +1,67 @@
+{% extends 'livescore/base.html' %}
+{% load custom %}
+{% block content %}
+<div class="row px-0 pt-3">
+<!--
+<div class="accordion" id="livegames">
+    <div class="accordion-item">
+    {% if live_games|length %}
+    <h4 class="accordion-header" id="heading4">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#livescores" aria-expanded="false" aria-controls="collapseOne">
+        Live games ({{ live_games|length}})
+        </button>
+    </h4>
+    <div id="livescores" class="accordion-collapse collapse" aria-labelledby="heading4" data-bs-parent="#livegames">
+        <div class="accordion-body table-responsive">
+            <table class="table table-striped table-hover">
+                 <tbody>
+                {% for match in live_games %}
+                    <tr class="clickable-row" data-href="{% url 'match' match.matchid %}">
+                        <td class="text-end text-danger fw-bold">{% if match.minutes == -1 %}HT{% else %}{{ match.minutes}}'{% endif %}</td>
+                        <td class="text-end">{{ match.get_home_team_display }}</td>
+                        <td class="text-end text-danger fw-bold">{{ match.home_goals }}</td>
+                        <td class="text-center">-</td>
+                        <td class="text-danger fw-bold">{{ match.away_goals }}</td>
+                        <td>{{ match.get_away_team_display }}</td>
+                    </tr>
+                {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+    {% else %}
+    <button class="accordion-button collapsed" type="button disabled" data-bs-toggle="collapse" data-bs-target="#" aria-expanded="false" aria-controls="">
+        No live games
+    </button>
+    {% endif %}
+    </div>
+</div>
+</div>
+-->
+<div class="table-responsive px-0 pb-3">
+    <table class="table table-striped table-hover">
+        <thead>
+            <tr>
+                <th class="text-end">#</th>
+                <th class="text-center">Chg.</th>
+                <th>User</th>
+                <th>Total points</th>
+                </th>
+            </tr>
+        </thead>
+        <tbody class="table-group-divider">
+        {% for rank in rankings %}
+            <tr class='clickable-row' data-href="{% url 'user' rank.user.userid %}">
+                <td class="text-end fw-bold">{{ forloop.counter }}</td>
+                <td class="text-center">
+                    {% if rank.change > 0 %}<div class="fw-bold text-danger"><i class="bi bi-arrow-down"></i>{{ rank.change|abs }}</div>
+                    {% elif rank.change < 0 %}<div class="fw-bold text-success"><i class="bi bi-arrow-up"></i>{{ rank.change|abs }}</div>{% endif %}
+                </td>
+                <td>{{ rank.user }}</td>
+                <td class="align-middle">{{ rank.points }}{% if rank.points_live %}<span class="text-success small">&nbsp;&nbsp;+{{ rank.points_live }}{% endif %}</span></td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+</div>
+{% endblock %}

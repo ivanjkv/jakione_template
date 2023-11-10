@@ -1,0 +1,20 @@
+{% extends 'livescore/base.html' %}
+
+{% block content %}
+<div class="popup">
+    <h2>Upload File</h2>
+    <form method="post" enctype="multipart/form-data" id="upload-form">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Upload</button>
+    </form>
+    <button onclick="closePopup()">Close</button>
+</div>
+
+<script>
+    function closePopup() {
+        var popup = document.querySelector('.popup');
+        popup.style.display = 'none';
+    }
+</script>
+{% endblock %}
