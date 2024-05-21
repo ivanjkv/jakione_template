@@ -1,0 +1,43 @@
+name: django
+channels:
+  - conda-forge
+dependencies:
+  - urllib3==1.26.11=py310haa95532_0
+  - pyopenssl==22.0.0=pyhd3eb1b0_0
+  - requests
+  - vc
+  - libpq==12.9=hb652d5d_3
+  - zlib
+  - psycopg2==2.8.6=py310hcd4344a_1
+  - typing_extensions
+  - asgiref
+  - sqlite
+  - python=3.10
+  - wheel
+  - openssl
+  - wincertstore==0.2=py310haa95532_2
+  - cryptography
+  - bs4==4.11.1=hd3eb1b0_0
+  - soupsieve==2.3.1=pyhd3eb1b0_0
+  - vs2015_runtime
+  - xz
+  - brotlipy==0.7.0=py310h2bbff1b_1002
+  - bzip2
+  - beautifulsoup4==4.11.1=py310haa95532_0
+  - win_inet_pton==1.1.0=py310haa95532_0
+  - setuptools
+  - sqlparse
+  - cffi==1.15.1=py310h2bbff1b_0
+  - tzdata
+  - charset-normalizer==2.0.4=pyhd3eb1b0_0
+  - libffi
+  - tk
+  - ca-certificates
+  - pysocks==1.7.1=py310haa95532_0
+  - idna==3.3=pyhd3eb1b0_0
+  - pip
+  - pytz
+  - django
+  - certifi
+  - pycparser==2.21=pyhd3eb1b0_0
+prefix: C:\Users\Ivan\miniconda3\envs\django

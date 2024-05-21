@@ -1,0 +1,180 @@
+[
+    {
+        "group": "A",
+        "matches": [
+            {
+                "matchid": "0GrhAeCD",
+                "match_time": "2024-06-14 21:00:00",
+                "round": 1,
+                "home_team": "GER",
+                "away_team": "SCO",
+                "home_flag_src": "flags/ger.svg",
+                "away_flag_src": "flags/sco.svg",
+                "status": "S",
+                "home_goals": 0,
+                "away_goals": 0,
+                "minutes": 0,
+                "previous_status": "S"
+            },
+            {
+                "matchid": "1HtjBeEF",
+                "match_time": "2024-06-15 15:00:00",
+                "round": 1,
+                "home_team": "HUN",
+                "away_team": "SWI",
+                "home_flag_src": "flags/hun.svg",
+                "away_flag_src": "flags/swi.svg",
+                "status": "S",
+                "home_goals": 0,
+                "away_goals": 0,
+                "minutes": 0,
+                "previous_status": "S"
+            },
+            {
+                "matchid": "47HOTVY8",
+                "match_time": "2024-06-19 18:00:00",
+                "round": 2,
+                "home_team": "GER",
+                "away_team": "HUN",
+                "home_flag_src": "flags/ger.svg",
+                "away_flag_src": "flags/hun.svg",
+                "status": "S",
+                "home_goals": 0,
+                "away_goals": 0,
+                "minutes": 0,
+                "previous_status": "S"
+            },
+            {
+                "matchid": "0GPH10A3",
+                "match_time": "2024-06-19 21:00:00",
+                "round": 2,
+                "home_team": "SCO",
+                "away_team": "SWI",
+                "home_flag_src": "flags/sco.svg",
+                "away_flag_src": "flags/swi.svg",
+                "status": "S",
+                "home_goals": 0,
+                "away_goals": 0,
+                "minutes": 0,
+                "previous_status": "S"
+            },
+            {
+                "matchid": "8V90TA4A",
+                "match_time": "2024-06-23 21:00:00",
+                "round": 3,
+                "home_team": "SWI",
+                "away_team": "GER",
+                "home_flag_src": "flags/swi.svg",
+                "away_flag_src": "flags/ger.svg",
+                "status": "S",
+                "home_goals": 0,
+                "away_goals": 0,
+                "minutes": 0,
+                "previous_status": "S"
+            },
+            {
+                "matchid": "PH8DSR6N",
+                "match_time": "2024-06-23 21:00:00",
+                "round": 3,
+                "home_team": "SCO",
+                "away_team": "HUN",
+                "home_flag_src": "flags/sco.svg",
+                "away_flag_src": "flags/hun.svg",
+                "status": "S",
+                "home_goals": 0,
+                "away_goals": 0,
+                "minutes": 0,
+                "previous_status": "S"
+            }
+        ]
+    },
+    {
+        "group": "B",
+        "matches": [
+            {
+                "matchid": "2IujCfGH",
+                "match_time": "2024-06-15 18:00:00",
+                "round": 1,
+                "home_team": "SPA",
+                "away_team": "CRO",
+                "home_flag_src": "flags/spa.svg",
+                "away_flag_src": "flags/cro.svg",
+                "status": "S",
+                "home_goals": 0,
+                "away_goals": 0,
+                "minutes": 0,
+                "previous_status": "S"
+            },
+            {
+                "matchid": "73PIT0X0",
+                "match_time": "2024-06-15 21:00:00",
+                "round": 1,
+                "home_team": "ITA",
+                "away_team": "ALB",
+                "home_flag_src": "flags/ita.svg",
+                "away_flag_src": "flags/alb.svg",
+                "status": "S",
+                "home_goals": 0,
+                "away_goals": 0,
+                "minutes": 0,
+                "previous_status": "S"
+            },
+            {
+                "matchid": "J9CLB8XR",
+                "match_time": "2024-06-19 15:00:00",
+                "round": 2,
+                "home_team": "CRO",
+                "away_team": "ALB",
+                "home_flag_src": "flags/cro.svg",
+                "away_flag_src": "flags/alb.svg",
+                "status": "S",
+                "home_goals": 0,
+                "away_goals": 0,
+                "minutes": 0,
+                "previous_status": "S"
+            },
+            {
+                "matchid": "T7IOWFNT",
+                "match_time": "2024-06-20 21:00:00",
+                "round": 2,
+                "home_team": "SPA",
+                "away_team": "ITA",
+                "home_flag_src": "flags/spa.svg",
+                "away_flag_src": "flags/ita.svg",
+                "status": "S",
+                "home_goals": 0,
+                "away_goals": 0,
+                "minutes": 0,
+                "previous_status": "S"
+            },
+            {
+                "matchid": "VFNSPNSO",
+                "match_time": "2024-06-24 21:00:00",
+                "round": 3,
+                "home_team": "ALB",
+                "away_team": "SPA",
+                "home_flag_src": "flags/alb.svg",
+                "away_flag_src": "flags/spa.svg",
+                "status": "S",
+                "home_goals": 0,
+                "away_goals": 0,
+                "minutes": 0,
+                "previous_status": "S"
+            },
+            {
+                "matchid": "JWVRFMDP",
+                "match_time": "2024-06-24 21:00:00",
+                "round": 3,
+                "home_team": "CRO",
+                "away_team": "ITA",
+                "home_flag_src": "flags/cro.svg",
+                "away_flag_src": "flags/ita.svg",
+                "status": "S",
+                "home_goals": 0,
+                "away_goals": 0,
+                "minutes": 0,
+                "previous_status": "S"
+            }
+        ]
+    }
+]
